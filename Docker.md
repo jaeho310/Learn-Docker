@@ -24,14 +24,12 @@ $ docker pull ubuntu:latest
 -name | 컨테이너 이름 설정
 -p | 호스트와 컨테이너의 포트를 연결
 -rm | 컨테이너가 종료되면 컨테이너 자동 삭제 
-<br>
+
 ```
 1. pull 받은 ubuntu 이미지를 이용하여 컨테이너 실행
 컨테이너 이름은 my_ubuntu이며 자동 삭제
 $ docker run -it --rm --name my_ubuntu /bin/bash
 ```
-
-
 # **3. Docker 명령어**
 ## image 관련 명령어
 >**명령어 : docker <옵션> [ARG]**
