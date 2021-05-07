@@ -30,6 +30,8 @@ $ docker pull ubuntu:latest
 컨테이너 이름은 my_ubuntu이며 자동 삭제
 $ docker run -it --rm --name my_ubuntu /bin/bash
 ```
+
+<br>
 # **3. Docker 명령어**
 ## image 관련 명령어
 >**명령어 : docker <옵션> [ARG]**
