@@ -31,7 +31,7 @@ $ docker pull ubuntu:latest
 $ docker run -it --rm --name my_ubuntu /bin/bash
 ```
 
-<br>
+
 # **3. Docker 명령어**
 ## image 관련 명령어
 >**명령어 : docker <옵션> [ARG]**
@@ -50,7 +50,7 @@ exec | 외부에서 컨테이너 내부 명령어 실행
 rm | 컨테이너 삭제
 rmi | 이미지 삭제 
 build | 이미지 생성(Dockerfile 필요)
-<br>
+
 # **4. Dockerfile 작성 법 및 docker build**
 ## (1)Dockerfile
 ### 개요
