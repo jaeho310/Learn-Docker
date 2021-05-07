@@ -16,7 +16,7 @@ $ docker pull ubuntu:latest
 - 다운받은 image를 이용하며 run 명령어를 이용해 실행한다.
 > 실행방법 : docker run [옵션] 이미지이름 [커맨드]
 ```
-1. pull 받은 ubuntu 이미지를 이용하여 컨테이너 실행
+1. pull 받은 ubuntu 이미지를 이용하여 컨테이너 실행  #adsf
 $ docker run -it --name my_ubuntu /bin/bash
 ```
 옵션 | 설명 
